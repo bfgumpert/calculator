@@ -1,0 +1,43 @@
+#container {
+    border: 2px solid black;
+    height: 400px;
+    width: 300px;
+    display: grid;
+    grid: 
+    'display display display display'
+    'clear blank1 blank2 division'
+    'seven eight nine multiplyy'
+    'four five six subtractt'
+    'one two three addd'
+    'zeroo blank3 blank4 equal';
+    gap: 10px;
+    padding: 10px;
+    background-color: rgb(148, 173, 221);
+}
+
+#display {
+    background-color: aqua;
+    width: auto;
+    grid-area: display;
+}
+
+#zero {grid-area: zeroo;}
+#one {grid-area: one;}
+#two {grid-area: two;}
+#three {grid-area: three;}
+#four {grid-area: four;}
+#five {grid-area: five;}
+#six {grid-area: six;}
+#seven {grid-area: seven;}
+#eight {grid-area: eight;}
+#nine {grid-area: nine;}
+#equal {grid-area: equal;}
+#add {grid-area: addd;}
+#subtract {grid-area: subtractt;}
+#multiply {grid-area: multiplyy;}
+#division {grid-area: division;}
+#clear {grid-area: clear;}
+#blank1 {grid-area: blank1;}
+#blank2 {grid-area: blank2;}
+#blank3 {grid-area: blank3;}
+#blank4 {grid-area: blank4;}
