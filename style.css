@@ -15,10 +15,20 @@
     background-color: rgb(148, 173, 221);
 }
 
-#display {
-    background-color: aqua;
+#displayHolder {
+    display: flex;
+    background-color: rgb(255 253 193);
+    height: auto;
     width: auto;
     grid-area: display;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#display {
+    font-size: larger;
+    padding-right: 10px;
 }
 
 #zero {grid-area: zeroo;}
